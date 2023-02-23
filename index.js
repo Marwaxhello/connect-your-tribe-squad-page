@@ -49,3 +49,4 @@ async function fetchJson(url) {
     .then((response) => response.json())
     .catch((error) => error)
 }
+

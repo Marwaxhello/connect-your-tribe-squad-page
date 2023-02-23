@@ -1,36 +1,71 @@
 
 <%- include('./partials/head.ejs') %>
 
+
+  </head>
+    
+  <div class="grain">
+    <div class="navbar">
+
+    <div class="Logo-fdnd">
+     <img class="fdnd-logo" src="/fdnd-logo1.png" alt="fdnd-logo-boven" />
+
+     <!-- <h2 class="frontend"> Frontend <br> Design & Development</h2> -->
+     </div>
+
+
+    <div class="bigger_screen showcase">
+      <a href="" class="link link-dashboard sm-hidden vertical-center"></a>
+      
+    
   <main>
-    <h1>
-      <%= squad.name %>
-    </h1>
-
-    <a href="/?squad=squad-a-2022">Squad A</a>
-    <a href="/?squad=squad-b-2022">Squad B</a>
-    <a href="/?squad=squat-c-2022">Squad C</a>
-    <hr />
-
-    <a href="/?squad=<%= squad.slug %>&orderBy=name">Sorteer op naam</a>
-    <hr />
     <section>
-      <!-- Hier komen de members -->
-      <!-- <% squad.members.forEach(member=> { %>
-        <article>
-          <% if (member.avatar) { %>
-            <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-            <% }else{ %>
-              <img src="/placeholder.jpg" alt="Placeholder avatar" />
-              <% } %> -->
-                <h2>
-                  <%= member.name %>
-                    <%= member.prefix %>
-                      <%= member.surname %>
-                </h2>
-        </article>
-        <% }) %>
+    
+      <h1 class="ml15">
+        <span class="word">Squad Page</span>
+      </h1>
+    
     </section>
-  </main>
+
+      <h3>
+        <%= squad.name %>
+      </h3>
+
+      <a href="/?squad=squad-a-2022">Squad A</a>
+      <a href="/?squad=squad-b-2022">Squad B</a>
+      <a href="/?squad=squat-c-2022">Squad C</a>
+      <hr /> -->
+  
+    <a href="/?squad=<%= squad.slug %>&orderBy=name">Sorteer op naam</a>
+      <hr />
+
+  <section class="section_2">
+  <!-- <!-- <h2>
+        <%= squad.name %>
+      </h2> -->
+
+  <!-- Members list -->
+  <% squad.members.forEach(member=> { %>
+    <article class="article-1">
+      <% if (member.avatar) { %>
+        <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>"
+          onerror="this.onerror=null;this.src='/img/placeholder.jpeg';" />
+        <% }else{ %>
+          <img src="/placeholder.jpeg" alt="Placeholder avatar" />
+          <% } %>
+            <h2 class="name__card">
+              <%= member.name %>
+                <%= member.prefix %>
+                  <%= member.surname %>
+                    </h3>
+                    <button class="card__button"><a href="<%= member.gitHubHandle %>"></a>
+                      <h3 class="button__text">Github</h3>
+                    </button>
+    </article>
+    <% }) %>
+</section>
+
+</main>
 
   <%- include('./partials/foot.ejs') %>
 
