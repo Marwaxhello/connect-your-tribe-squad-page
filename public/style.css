@@ -1,10 +1,9 @@
-
 /*-----VARIABLES-----*/
 :root {
   /* COLORS */
-  --purple-color: #9176FF;
+  --purple-color: #9176ff;
   --dark-color: #060606;
-  --dark-icon-color: #fff;
+  --white-color: #fff;
   --background-color-dark: #05053f;
   --light-aqua: #6be8ca;
 }
@@ -26,7 +25,7 @@ body {
 
 /*-----FDND-LOGO-----*/
 
-.fdnd-logo{
+.fdnd-logo {
   width: 8em;
   margin: 1.2em 0.8em 0 1em;
 }
@@ -40,35 +39,36 @@ h1 {
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   color: var(--purple-color);
-  font-size: 2em;
+  font-size: 6rem;
   position: relative;
   margin-left: 0.2em;
+  display: inline-block;
+  line-height: 2em;
   /* text-transform: uppercase; */
 }
 
-/*-----IMG-AND-FRAME-----*/
+/*-----IMG-AND-BORDER-----*/
 
 .article-1 {
   position: relative;
-    width: 14em;
-    height: 19em;
-    padding: 1rem;
-    text-align: center;
-    background: #17174a;
-    border-radius: 1rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid #9176FF;
-    overflow: hidden;
+  width: 14em;
+  height: 15em;
+  padding: 1rem;
+  text-align: center;
+  background: #17174a;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #9176ff;
+  overflow: hidden;
 }
 
 article img {
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
 }
-
 
 /*-----IMG-ROW-SPACING-----*/
 
@@ -88,7 +88,6 @@ main section {
   }
 }
 
-
 /*-----ANIMATIONS-----*/
 
 /* .ml15 {
@@ -101,19 +100,22 @@ main section {
 
 .ml15 .word {
   display: inline-block;
-  line-height: 1em;
+  line-height: 2em;
+  font-size: 6rem;
+  color: #9176ff;
 }
+/*-----4rem mobilev-----*/
 
 /*-----CARD-BUTTON-----*/
 
-.card__button{
-    padding: 0.5em 2em;
-    background-color: #6be8ca;
-    border: none;
-    border-radius: 4px;
+.card__button {
+  padding: 0.5em 2em;
+  background-color: #6be8ca;
+  border: none;
+  border-radius: 4px;
 }
 .card__button:hover {
-  background-color: #ffff;
+  background-color: var(--purple-color);
   color: #05053f;
 }
 
@@ -123,10 +125,38 @@ main section {
   color: #060606;
 }
 
-.name__card{
+.name__card {
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   color: white;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  line-height: 3em;
+}
+
+/* .squad__name {
+  color: var(--white-color);
+  font-size: 3rem;
+  position: relative;
+  margin-left: 5em;
+  display: inline-block;
+  line-height: 1em;
+  opacity: 30%;
+  text-align: center;
+  text-transform: uppercase;
+} */
+
+
+.squad {
+  color: var(--white-color);
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  line-height: 1em;
+  opacity: 30%;
+  text-transform: uppercase;
+  padding: 1em;
+}
+main {
+  text-align: center;
 }
