@@ -1,29 +1,36 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # CONNECT-YOUR-TRIBE-SQUAD-PAGE 🎭
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="1549" alt="Screenshot 2023-03-22 at 08 44 19" src="https://user-images.githubusercontent.com/112861555/226833949-55f0b284-a1ed-4184-90b6-874cee76522c.png">
 
-## Inhoudsopgave
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Voor deze opdracht werken wij in node.js, de opdracht was maak een squad page van de eerste periode maar in node.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## Kenmerken🚀
+* node: Is een open-source, platformonafhankelijke JavaScript-runtime en -bibliotheek voor het uitvoeren van webapplicaties buiten de clientbrowser.
+* ejs: is een eenvoudige sjabloontaal waarmee u HTML-opmaak kunt maken met behulp van eenvoudig JavaScript. Geen religiositeit in het organiseren van dingen. Geen herhaling en heruitvinding van control flow. Het is gewoon JavaScript
+* Express: Is een backend-framework voor het bouwen van RESTful API's met behulp van Node.js
 
-## Installatie
-<!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
+## Tools⚒️
 
-## Gebruik
+* Visuel studio code
+
+## Technieken🤾‍♀️
+* Node
+* Ejs
+* Express
+* Javascript
+* Css
+
+## Installatie 🎬
+
+Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: .
+Clone of download deze respository.
+Open hem in je code-editor.
+open de terminal en type npm install.
+Daarna door gerbruik van npm start krijg je een localhost link waar je de code live ziet.
+Live zetten van je project kan met behulp van cyclic
 
 ## Bronnen
 
