@@ -1,4 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+
 
 # CONNECT-YOUR-TRIBE-SQUAD-PAGE 🎭
 <img width="1549" alt="Screenshot 2023-03-22 at 08 44 19" src="https://user-images.githubusercontent.com/112861555/226833949-55f0b284-a1ed-4184-90b6-874cee76522c.png">
