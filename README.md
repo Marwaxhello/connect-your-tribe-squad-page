@@ -32,6 +32,9 @@ open de terminal en type npm install.
 Daarna door gerbruik van npm start krijg je een localhost link waar je de code live ziet.
 Live zetten van je project kan met behulp van cyclic
 
+#### DISCLAMER
+Deze link werkt niet omdat ik maar drie links op cyclic.sh mag gebruiken en deze heb ik weggehaald!
+
 ## Bronnen
 programma.fdnd.nl
 
